@@ -1,0 +1,96 @@
+:root{
+    --blue-one: #4241D9;
+    --blue-two: #6E95E6;
+    --blue-three: #47A0CC;
+    --blue-four: #60E6E5;
+    --blue-five: #60DAAE;
+}
+*{
+    margin: 0;
+}
+
+#nav-bar{
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(#47A0CC, rgb(101, 166, 199));
+    width: 100vw;
+    padding: 20px;
+    max-height: 300px;
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.678);
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.nav-list{
+    display: flex;
+}
+
+.name{
+    font-size: 1.5em;
+    margin: auto 68vw auto 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.begin{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://i.pinimg.com/originals/5f/cd/92/5fcd92abfda2924ea891bbba5014617e.jpg);
+    background-color: var(--blue-four);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.backtwo{
+    background-image: url(https://www.radiobruno.it/wp-content/uploads/2018/05/new-york-head.jpg);
+}
+.sec-photo{
+    display: grid;
+    grid-template-columns: repeat(7, 2fr);
+    grid-gap: 10px;
+    padding: 150px 100px 100px 100px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(110, 148, 230, 0.719);
+}
+
+.img{
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.name-letters{
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+#btn{
+    width: 100%;
+    height: 40px;
+}
+
+.back{
+    background-color: rgba(96, 230, 230, 0.685);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#head-ini{
+    margin: 10px;
+}
