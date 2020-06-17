@@ -5,8 +5,14 @@
     --blue-four: #60E6E5;
     --blue-five: #60DAAE;
 }
+
 *{
     margin: 0;
+}
+
+.wish{
+    font-size: 2.5em;
+    font-family: 'Courgette', cursive;
 }
 
 #nav-bar{
@@ -29,8 +35,9 @@
 }
 
 .name{
-    font-size: 1.5em;
-    margin: auto 68vw auto 20px;
+    font-size: 2em;
+    margin: -15px 65vw -15px 30px;
+    font-family: 'Pacifico', cursive;
 }
 
 .nav-link{
@@ -58,26 +65,37 @@
     display: grid;
     grid-template-columns: repeat(7, 2fr);
     grid-gap: 10px;
-    padding: 150px 100px 100px 100px;
+    padding: 100px 100px 100px 100px;
     justify-content: center;
     text-align: center;
     background-color: rgba(110, 148, 230, 0.719);
 }
 
-.img{
-    height: 200px;
+#img{
     border: 2px solid black;
     border-radius: 5px;
+    background-image: url("/Ponqueso.jpeg");
+    
 }
 
 .name-letters{
-    font-size: 4em;
+    font-size: 5em;
     margin-bottom: 20px;
+    font-family: 'Bellota', cursive;
+    font-weight: bolder;
 }
 
 #btn{
     width: 100%;
     height: 40px;
+    background-color: rgb(96, 181, 230);
+    border-style: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.2s ease;
+    font-family: 'Bellota', cursive;
+    font-weight: bolder;
 }
 
 .back{
@@ -93,4 +111,98 @@
 
 #head-ini{
     margin: 10px;
+    font-size: 3.5em;
 }
+
+.sec-letter{
+    height: 1000px;
+    background-image: url(https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/80335885_2711476965567472_1715497241822625792_o.jpg?_nc_cat=109&_nc_sid=8bfeb9&_nc_ohc=-1cONNLzVcQAX9U3bbk&_nc_ht=scontent-mxp1-1.xx&oh=7cd324448295237323411e03668668d1&oe=5F0B7A9A);
+}
+
+.div-letter{
+    background-color:  rgba(96, 218, 173, 0.685);
+    width: 100vw;
+    height: 100%;
+}
+
+.div-real-let{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 600px;   
+    height: 800px;
+    margin-left: 29vw;
+    padding-top: 100px;
+}
+
+.love{
+    margin-top: 70px;
+    background-color: rgb(233, 233, 233);
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+}
+
+.carta-title{
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Courgette', cursive;
+}
+
+.nav-link{
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: 0.1s ease;
+}
+
+.float{
+    position: fixed;
+    top: 80px;
+    margin-left: 16vw;
+    width: 700px;
+    height: 400px;
+    background-image: linear-gradient(var(--blue-one), rgb(95, 95, 214));
+    display: flex;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.exit{
+    width: 30px;
+    height: 30px;
+    margin: 5px auto auto 5px;
+    float: left;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Back_Arrow.svg/1200px-Back_Arrow.svg.png);
+    background-position: center;
+    background-size: cover;
+    border-style: none;
+    background-color: unset;
+}
+
+.title-float{
+    margin: 20px 20vw auto auto;
+    font-size: 2.5em;
+    font-family: 'Courgette', cursive;
+}
+
+.para-float{
+    
+}
+
+.nav-link:hover{
+    color: white;
+    font-size: 1.5em;
+
+}
+
+#btn:hover{
+    background-color: rgb(70, 155, 204);
+    color: white;
+    box-shadow: 0px 0px 5px 3px rgba(255, 255, 255, 0.788);
+}
+
